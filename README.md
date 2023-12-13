@@ -1,3 +1,12 @@
+<<注意>>
+開発途中のプロジェクトのため動作保証がありません。安定バージョンのアップデートをお待ちください
+
+<Caution>>
+This project is still under development, so there is no guarantee that it will work. Please wait for stable version update.
+
+<br>
+<br>
+
 <h1 align="center">SimpleEventSubsystem</h1>
 
 ## 概要 OverView
