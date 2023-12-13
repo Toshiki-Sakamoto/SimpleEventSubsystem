@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimpleEventSubsystem-5566.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Intermediate\Build\Win64\x64\PersikoProto2Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\Module.SimpleEventSubsystem.cpp.obj"
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\SimpleEvenManager.cpp.obj"
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\SimpleEventBase.cpp.obj"
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\SimpleEventSubsystemLibrary.cpp.obj"
+"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\Default.rc2.res"
+/OUT:"C:\Users\Toshi\Documents\GitHub\Persiko-Proto2\Plugins\SimpleEventSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleEventSubsystem\UnrealEditor-SimpleEventSubsystem-5566.lib"

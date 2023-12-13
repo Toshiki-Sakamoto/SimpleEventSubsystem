@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimpleEventSubsystem.cpp.obj": [
+			"SimpleEvenManager.gen.cpp.obj",
+			"SimpleEventBase.gen.cpp.obj",
+			"SimpleEventSubsystem.init.gen.cpp.obj",
+			"SimpleEventSubsystemLibrary.gen.cpp.obj",
+			"SimpleEventSubsystem.cpp.obj",
+			"SimpleEventSubsystemLibrary.cpp.obj",
+			"SimpleEvenManager.cpp.obj",
+			"SimpleEventBase.cpp.obj"
+		]
+	}
+}
