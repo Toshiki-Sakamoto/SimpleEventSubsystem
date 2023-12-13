@@ -10,9 +10,11 @@ This project is still under development, so there is no guarantee that it will w
 <h1 align="center">SimpleEventSubsystem</h1>
 
 ## 概要 OverView
-UnrealENgine5上で動作するシンプルなイベント送受信システムです。イベント送受信するクラス間の依存関係はありません
+UnrealENgine5上で動作するシンプルなイベント送受信システムです。イベント送受信するクラス間の依存関係はありません。
 
-【UE5】Systems that can send and receive events without dependencies
+イベントを送る側と受け取る側は 1:N の関係で、受信側は複数の存在が可能です。
+
+【UE5】Systems that can send and receive events without dependencies.The sender and receiver of an event have a 1:N relationship, and the receiver can have multiple entities.
 
 <br>
 <br>
