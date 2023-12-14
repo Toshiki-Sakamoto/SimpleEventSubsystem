@@ -46,7 +46,7 @@ PrivateDependencyModuleNames.AddRange(new string[] { .... "SimpleEventSubsystem"
  * Event issued when a player is damaged.
  */
 UCLASS(BlueprintType)
-class PERSIKOPROTO2_API UPlayerDamageEvent : public USimpleEventBase
+class XXXX_API UPlayerDamageEvent : public USimpleEventBase
 {
 	GENERATED_BODY()
 
