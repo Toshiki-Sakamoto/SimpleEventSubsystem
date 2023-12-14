@@ -19,6 +19,9 @@ UnrealENgine5上で動作するシンプルなイベント送受信システム�
 <br>
 <br>
 
+## 変更履歴
+- v1.0.0 BP上で動作するシステムの作成.  Creating a system that runs on BP
+
 ## 導入手順 Installation Procedure
 1. Clone or Download 
 2. プロジェクトのPlugin配下に追加してください。Please add it to your project's Plugin
