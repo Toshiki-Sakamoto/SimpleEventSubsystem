@@ -113,3 +113,9 @@ The only dependency between the two classes is `SimpleEventManager`.
 - よく使うイベントを変数にキャッシュしておくと、再利用できて便利です。
 It is useful to cache frequently used events in a variable so that they can be reused.
 
+- `Plugin Downloader` にも対応する予定です
+We will also support `Plugin Downloader`.
+
+https://www.unrealengine.com/id/logout?lang=ja&redirectUrl=https%3A%2F%2Fwww.unrealengine.com%2Fmarketplace%2Fja%2Fproduct%2Fplugin-downloader&lang=ja
+
+
