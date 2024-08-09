@@ -71,6 +71,9 @@ class SIMPLEEVENTSUBSYSTEM_API USimpleEventManager : public UGameInstanceSubsyst
 
 public:
 
+	UFUNCTION(BlueprintPure, Category = "SimpleEvent", meta = (WorldContext = "WorldContextObject", DisplayName = "Get SimpleEventManager Instance"))
+	static USimpleEventManager* Get(const UObject* WorldContextObject);
+
 	UFUNCTION(BlueprintCallable, Category = "SimpleEvent")
 	bool Trigger(USimpleEventBase* Payload);
 

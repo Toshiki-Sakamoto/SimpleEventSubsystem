@@ -3,11 +3,22 @@
 
 #include "SimpleEvenManager.h"
 #include "SimpleEventBase.h"
+#include "Kismet/GameplayStatics.h"
 
 
 DECLARE_LOG_CATEGORY_EXTERN(WarningSimpleEventManager, Warning, All);
 DEFINE_LOG_CATEGORY(WarningSimpleEventManager);
 
+
+USimpleEventManager* USimpleEventManager::Get(const UObject* WorldContextObject)
+{
+	if (auto GameInstance = UGameplayStatics::GetGameInstance(WorldContextObject))
+	{
+		return GameInstance->GetSubsystem<USimpleEventManager>();
+	}
+
+	return nullptr;
+}
 
 bool USimpleEventManager::Trigger(USimpleEventBase* Payload)
 {
@@ -27,6 +38,7 @@ bool USimpleEventManager::Trigger(USimpleEventBase* Payload)
 
 void USimpleEventManager::AddListener(UObject* Listener, TSubclassOf<USimpleEventBase> EventType, FSimpleEventManagetDelegate Delegate)
 {
+	EventType->ClassDefaultObject;
 	const auto Name = EventType.Get()->GetFName().GetPlainNameString();
 
 	// You will be searched twice, but it is safer than double registration.
