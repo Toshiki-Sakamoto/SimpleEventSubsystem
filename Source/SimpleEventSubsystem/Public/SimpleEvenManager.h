@@ -91,6 +91,7 @@ private:
 
 	bool ExistsListener(FString EventName, UObject* Listener);
 
+	UFUNCTION()
 	void OnActorListenerDestroy(AActor* Actor);
 
 
